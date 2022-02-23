@@ -5,12 +5,14 @@
 //  Created by Matheus Ribeiro on 21/02/22.
 //
 
-import Foundation
+import UIKit
 
 class ListViewModel {
-    var itemList: [String] = []
+    var itemList: [ListModel.ListItem] = []
     
-    init(itemList: [String]) {
+    var didTapItemHandler: (ListModel.ListItem) -> Void = { _ in }
+    
+    init(itemList: [ListModel.ListItem]) {
         self.itemList = itemList
     }
 }
