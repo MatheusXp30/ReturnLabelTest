@@ -15,6 +15,7 @@
 		967BF18E27C46C6E008617FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967BF18C27C46C6E008617FF /* LaunchScreen.storyboard */; };
 		967BF19927C46D02008617FF /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967BF19827C46D02008617FF /* ListViewController.swift */; };
 		967BF19B27C46D23008617FF /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967BF19A27C46D23008617FF /* ListViewModel.swift */; };
+		967BF1A127C5B7E9008617FF /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967BF1A027C5B7E9008617FF /* ListModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		967BF18F27C46C6E008617FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		967BF19827C46D02008617FF /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		967BF19A27C46D23008617FF /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		967BF1A027C5B7E9008617FF /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		967BF19527C46CB6008617FF /* ListViewController */ = {
 			isa = PBXGroup;
 			children = (
+				967BF19F27C5B7DF008617FF /* Model */,
 				967BF19727C46CE1008617FF /* ViewModel */,
 				967BF19627C46CCD008617FF /* View */,
 			);
@@ -95,6 +98,14 @@
 				967BF19A27C46D23008617FF /* ListViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		967BF19F27C5B7DF008617FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				967BF1A027C5B7E9008617FF /* ListModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +182,7 @@
 				967BF19B27C46D23008617FF /* ListViewModel.swift in Sources */,
 				967BF18627C46C6C008617FF /* ViewController.swift in Sources */,
 				967BF18227C46C6C008617FF /* AppDelegate.swift in Sources */,
+				967BF1A127C5B7E9008617FF /* ListModel.swift in Sources */,
 				967BF19927C46D02008617FF /* ListViewController.swift in Sources */,
 				967BF18427C46C6C008617FF /* SceneDelegate.swift in Sources */,
 			);
