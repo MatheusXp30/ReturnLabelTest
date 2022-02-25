@@ -8,9 +8,9 @@
 import Foundation
 
 class ListViewModel {
-    var itemList: [String] = []
+    var itemList: [ListModel.ListItem] = []
     
-    init(itemList: [String]) {
+    init(itemList: [ListModel.ListItem]) {
         self.itemList = itemList
     }
 }
